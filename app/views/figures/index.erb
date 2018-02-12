@@ -1,0 +1,9 @@
+<h1>All Figures:</h1>
+
+<% @figures.each do |figure| %>
+  <ul>
+    <em><label>Name: </label></em><%= figure.name %><br>
+    <em><label>Titles: </label></em><%= figure.titles %><br>
+    <em><label>Landmarks: </label></em><%= figure.landmarks %><br><br>
+  </ul>
+<% end %>
